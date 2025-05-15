@@ -1,0 +1,125 @@
+
+*{
+    margin: 0;
+    padding: 1;
+    box-sizing: border-box;
+}
+/*header*/
+
+
+.titular{  
+
+    background-color: rgb(3, 3, 3);
+}
+
+.titular {
+    position: sticky;
+    top: 0px;
+    height: 195px;
+}
+
+.redirecciones {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 2%;
+    border: 10px;
+
+}
+.redireccion {
+    list-style-type: none;
+    padding-left: 25px;
+    color: rgba(255, 255, 255, 0.973);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    
+}
+
+
+header img {
+    width: 240px;
+    
+}
+
+.titulo { 
+ 
+    background-image: url(https://i.pinimg.com/736x/2a/f4/e7/2af4e73248862fefcfc8dd83874c70eb.jpg);
+    text-shadow: -2px 4px 4px rgba(0,0,0,0.6);
+    height: 500px;
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 40px;
+
+    
+}
+
+.clases{
+    display: flex;
+    flex-direction: row;
+}
+.cuadro{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    justify-content: center;
+    width: 505px;             /* Ancho deseado para la caja */
+    border: 1px solid #007bff;/* Borde para visualizar la caja */
+    padding: 40px;  
+     
+
+  
+    
+
+}
+
+
+/*body*/
+body{
+    
+    background-color: rgba(129, 130, 133, 0.932);
+}
+ 
+
+h1 {
+    text-align: center;
+   }
+
+h2 {
+    text-align: center;
+}
+.logoos{
+    display: flex;
+    flex-direction: row;
+}
+.logos-marcas{
+     display: flex;
+    flex-direction: column;
+    height: 80px;
+    margin: auto;
+    padding: 5px;
+    border: 1px ;
+    align-items : center;
+    justify-content: center;
+.logo-marca{
+    height: 60px;
+}
+    
+}
+/*footer*/
+footer{
+    
+  p{ color: rgb(255, 255, 255);}
+  p{text-align: end;}
+    background-color: rgb(2, 2, 2);
+    .copy{
+        background-color: rgb(167, 22, 22);
+    }
+
+}
+
