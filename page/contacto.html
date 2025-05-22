@@ -31,27 +31,27 @@
 <main>
 
 <nav>
-    <h2 class="titulo">Contacto directo con nosotros</h2>
+    <h1 class="titulo">Contacto directo con nosotros</h1>
 </nav> 
 
-<h3>En este apartado vas a poder completar este formulario para contacto directo</h3> 
+<h2>En este apartado vas a poder completar este formulario para contacto directo</h2> 
 
     <section>
-        <h4>Completar los datos y de ser necesario añadir texto competente</h4>
+        <h3>Completar los datos y de ser necesario añadir texto competente</h3>
     </section>
-    <section> <form action="/submit" method="post">
+    <section > <form action="/submit" method="post">
 
-        <li>            
-            
+        <li class="label-contacto">                       
             <label for="nombre">Nombre</label>
             <input type="text" name="nombre" id="nombre">
+        </li>
         
+        <li class="label-contacto">        
             <label for="apellido"> Apellido</label>
             <input type="text" name="apellido" id="apellido">          
-        
-        </li>       
+        </li>
 
-        <li><label for="genero">Genero</label>
+        <li class="label-contacto"><label for="genero">Genero</label>
             <input type="radio" name="" id="">
             <label for="">Hombre</label>
             
@@ -66,7 +66,7 @@
         </li>
 
 
-        <li><label for="pais">Pais</label>
+        <li class="label-contacto"><label for="pais">Pais</label>
             <select name="" id="">
                <option value="">Brasil</option>
                <option value="">Argentina</option>
@@ -78,7 +78,7 @@
         </li>
 
 
-        <li><label for="mensaje">Mensaje</label> 
+        <li class="label-contacto"><label for="mensaje">Mensaje</label> 
             <textarea name="mensaje" id="mensaje">
             </textarea> 
 
