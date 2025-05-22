@@ -188,7 +188,7 @@ li {
     width: 300px;
    }
    .logoos img {
-    height: 35px;
+    height: 33px;
    }
    body img{
     height: 120px;
@@ -251,14 +251,19 @@ footer iframe{
         padding: 1%;
         margin-right: 1px;
     } 
+    .h3{
+        display: flex;
+        padding-bottom: 80px;
+    }
     .logoos{
         display: flex;
         flex-direction: column;
+        padding-bottom: 150px;
         
      }
-    .mapa{
-    
-    width: 300px;
+    footer iframe{
+    height: 350px;
+    width: 350px;
    }
     .titular{
         width: 100%;
@@ -339,6 +344,15 @@ header img{
 }
     
     .redirecciones{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 4%;
+    border: 10px;
+
         width: 100%;    
     }
     .background-image{
@@ -359,21 +373,7 @@ h1 {
 h2 {
     text-align: center;
 }
-.logoos{
-    display: flex;
-    flex-direction: row;
-}
-.logos-marcas{
-     display: flex;
-    flex-direction: column;
-    height: 80px;
-    margin: auto;
-    padding: 5px;
-    border: 1px ;
-    align-items : center;
-    justify-content: center;
 
-}
 }
 footer{
     width:100%
