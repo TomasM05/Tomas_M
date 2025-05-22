@@ -123,3 +123,12 @@ footer{
 
 }
 
+@media(max-width:480px){
+body{
+        flex-direction: column;
+    } 
+    .redirecciones{
+        width: 90%;
+    
+    }
+}
