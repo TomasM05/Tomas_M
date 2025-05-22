@@ -142,21 +142,21 @@ footer{
     }
 
 header{
-    width: 80%;
+    width: 100%;
     
 }
 
     body{
         display: flex;
         flex-direction: column;
-        width: 80%;
+        width: 100%;
     } 
     .redirecciones{
-        width: 80%;
+        width: 100%;
     
     }
     .background-image{
-        width: 80%;
+        width: 100%;
        
     }
 footer{
