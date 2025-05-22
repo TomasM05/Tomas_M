@@ -9,7 +9,7 @@
 header{
 
     
-}
+
 
 .titular {
     background-color: rgb(3, 3, 3);
@@ -77,7 +77,7 @@ header img {
     
 
 }
-
+}
 
 /*body*/
 body{
@@ -125,9 +125,16 @@ footer{
 }
 
 @media(max-width:480px){
-     .logoos{
+    .redirecciones{
+        display: flex;
+        margin-bottom: 100%;
+        padding: 1%;
+        margin-right: 1px;
+    } 
+    .logoos{
         display: flex;
         flex-direction: column;
+        
      }
     .mapa{
     
