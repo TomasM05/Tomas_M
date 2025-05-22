@@ -8,10 +8,9 @@
 
 header{
 
-    
 
 
-.titular {
+.titular{
     background-color: rgb(3, 3, 3);
     position: sticky;
     top: 0px;
@@ -39,9 +38,8 @@ header{
 }
 
 
-header img {
-    width: 105px;
-    
+header img{
+    height: 100px;
 }
 
 .titulo { 
@@ -53,6 +51,7 @@ header img {
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 40px;
+    padding: 80px;
 
     
 }
@@ -107,9 +106,7 @@ h2 {
     border: 1px ;
     align-items : center;
     justify-content: center;
-.logo-marca{
-    height: 60px;
-}   
+
 }
 }
 /*footer*/
@@ -124,8 +121,127 @@ footer{
 
 }
 
-@media(max-width:480px){
+@media(max-width:480px)
+{
+    .titular{
+    background-color: rgb(3, 3, 3);
+    position: sticky;
+    top: 0px;
+    height: 195px;
+}
+.titulo { 
+ 
+    background-image: url(https://i.pinimg.com/736x/2a/f4/e7/2af4e73248862fefcfc8dd83874c70eb.jpg);
+    text-shadow: -2px 4px 4px rgba(0,0,0,0.6);
+    height: 500px;
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 40px;
+    padding: 80px;
+}
+ul{
+    display: flex;
+  padding: 0; 
+  margin: 0;  
+  list-style-type: none;
+  font-size: 0;
+}
+li {
+  display: inline-block; 
+  font-size: 13px; 
+}
+}
+    .redirecciones li{
+
+        display: flex;
+      list-style-type: none;
+    padding-right: 1%;
+    color: rgba(255, 255, 255, 0.973);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    margin: 0;
+    width: 100%;
+    } 
+    .redirecciones ul{
+        text-decoration: none;
+        list-style-type: none;
+    }
+    .logoos{
+        display: flex;
+        flex-direction: column;
+        
+    }
+        
+        
+     .logos-marcas{
+     display: flex;
+    flex-direction: column;
+    height: 10px;
+    margin: auto;
+    padding: 3px;
+    border: 1px ;
+    align-items : center;
+    justify-content: center;
+   width: 40%;
+    
+    width: 300px;
+   }
+   .logoos img {
+    height: 35px;
+   }
+   body img{
+    height: 120px;
+   }
+    .titular{
+        width: 100%;
+    }
+    header img {
+
+        height: 90px;
+    }
+
+header{
+    width: 100%;
+    nav{
+        width: 100%;
+    }
+}
+
+    body{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    } 
     .redirecciones{
+        width: 100%;    
+    }
+    .background-image{
+        width: 100%;      
+    }
+footer{
+    width:100%
+}
+}
+@media (min-width:1280px){
+
+    
+    .logos-marcas{
+     display: flex;
+    flex-direction: column;
+    height: 60px;
+    margin: auto;
+    padding: 5px;
+    border: 1px ;
+    align-items : center;
+    justify-content: center;
+
+}
+.logos-marcas img{
+    height: 60px;
+}
+    .redirecciones{
+
         display: flex;
         margin-bottom: 100%;
         padding: 1%;
@@ -145,29 +261,118 @@ footer{
     }
     header img {
 
-        height: 90px;
+        height: 100px;
     }
 
 header{
     width: 100%;
     
 }
+.titular{
+    background-color: rgb(3, 3, 3);
+    position: sticky;
+    top: 0px;
+    height: 195px;
+}
 
-    body{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    } 
-    .redirecciones{
-        width: 100%;
+.redirecciones {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 2%;
+    border: 10px;
+
+}
+.redireccion {
+    list-style-type: none;
+    padding-left: 25px;
+    color: rgba(255, 255, 255, 0.973);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
     
+}
+
+
+header img{
+    height: 100px;
+}
+
+.titulo { 
+ 
+    background-image: url(https://i.pinimg.com/736x/2a/f4/e7/2af4e73248862fefcfc8dd83874c70eb.jpg);
+    text-shadow: -2px 4px 4px rgba(0,0,0,0.6);
+    height: 500px;
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 40px;
+
+    
+}
+
+.clases{
+    display: flex;
+    flex-direction: row;
+}
+.cuadro{
+    background-color: rgba(163, 163, 163, 0.815);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    justify-content: center;
+    width: 505px;             /* Ancho deseado para la caja */
+    border: 1px solid #007bff;/* Borde para visualizar la caja */
+    padding: 40px;  
+     
+
+  
+    
+
+}
+    
+    .redirecciones{
+        width: 100%;    
     }
     .background-image{
-        width: 100%;
-       
+        width: 100%;      
     }
-footer{
-    width: 100%;
+    
+    body{
+
+    
+    background-color: rgba(129, 130, 133, 0.932);
+
+ 
+
+h1 {
+    text-align: center;
+   }
+
+h2 {
+    text-align: center;
 }
+.logoos{
+    display: flex;
+    flex-direction: row;
+}
+.logos-marcas{
+     display: flex;
+    flex-direction: column;
+    height: 80px;
+    margin: auto;
+    padding: 5px;
+    border: 1px ;
+    align-items : center;
+    justify-content: center;
+
+}
+}
+footer{
+    width:100%
 }
 
+}
