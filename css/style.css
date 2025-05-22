@@ -185,7 +185,14 @@ header   .redirecciones li{
         flex-direction: column;   
     }
         
-        
+ body .clases{
+    display: flex;
+    flex-direction: column;
+}        
+
+body .cuadro{
+    width: 90%;
+}
   body .carousel-inner img {
     width: 100%; 
     height: 250px;
@@ -323,6 +330,8 @@ header img{
     display: flex;
     flex-direction: row;
 }
+
+
 .cuadro{
     background-color: rgba(163, 163, 163, 0.815);
     display: flex;
