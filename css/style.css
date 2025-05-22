@@ -6,13 +6,13 @@
 }
 /*header*/
 
+header{
 
-.titular{  
-
-    background-color: rgb(3, 3, 3);
+    
 }
 
 .titular {
+    background-color: rgb(3, 3, 3);
     position: sticky;
     top: 0px;
     height: 195px;
@@ -40,7 +40,7 @@
 
 
 header img {
-    width: 240px;
+    width: 105px;
     
 }
 
@@ -62,7 +62,7 @@ header img {
     flex-direction: row;
 }
 .cuadro{
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(163, 163, 163, 0.815);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -81,9 +81,10 @@ header img {
 
 /*body*/
 body{
+
     
     background-color: rgba(129, 130, 133, 0.932);
-}
+
  
 
 h1 {
@@ -108,8 +109,8 @@ h2 {
     justify-content: center;
 .logo-marca{
     height: 60px;
+}   
 }
-    
 }
 /*footer*/
 footer{
@@ -124,11 +125,42 @@ footer{
 }
 
 @media(max-width:480px){
-body{
+     .logoos{
+        display: flex;
         flex-direction: column;
+     }
+    .mapa{
+    
+    width: 300px;
+   }
+    .titular{
+        width: 100%;
+    }
+    header img {
+
+        height: 90px;
+    }
+
+header{
+    width: 80%;
+    
+}
+
+    body{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
     } 
     .redirecciones{
-        width: 90%;
+        width: 80%;
     
     }
+    .background-image{
+        width: 80%;
+       
+    }
+footer{
+    width: 100%;
 }
+}
+
