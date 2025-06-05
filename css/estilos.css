@@ -1,0 +1,496 @@
+@media (max-width: 480px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(129, 130, 133, 0.932);
+  }
+  body header {
+    width: 100%;
+  }
+  body header nav {
+    width: 100%;
+  }
+  body header .titular {
+    background-color: rgb(3, 3, 3);
+    position: sticky;
+    top: 0px;
+    height: 195px;
+  }
+  body header ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-size: 0;
+  }
+  body header ul li {
+    display: inline-block;
+    font-size: 11px;
+  }
+  body header ul .redirecciones li {
+    display: flex;
+    list-style-type: none;
+    padding-right: 1%;
+    color: rgba(255, 255, 255, 0.973);
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-decoration: none;
+    margin: 0;
+    width: 100%;
+  }
+  body header ul .redirecciones ul {
+    text-decoration: none;
+    list-style-type: none;
+  }
+  body main .background-image {
+    width: 100%;
+  }
+  body main .titulo {
+    background-image: url(../media/DGFDFGFDGD.jpg);
+    text-shadow: -2px 4px 4px rgba(0, 0, 0, 0.6);
+    height: 150px;
+    width: 100%;
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 4px;
+  }
+  body main .carousel-inner img {
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+    margin: auto;
+  }
+  body main .titulo-infoweb, body main .titulo-marcas, body main .titulo-contacto {
+    font-size: 70%;
+  }
+  body main h1 {
+    text-align: center;
+  }
+  body main h2 {
+    padding-top: 15%;
+    padding-bottom: 10%;
+    text-align: center;
+  }
+  body main .logoos {
+    display: flex;
+    flex-direction: row;
+  }
+  body main .logos-marcas {
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    margin: auto;
+    padding: 5px;
+    border: 1px;
+    align-items: center;
+    justify-content: center;
+  }
+  body main .label-contacto {
+    margin-top: 3%;
+    margin-left: 1%;
+    list-style-type: none;
+  }
+  body main .clases {
+    display: flex;
+    flex-direction: column;
+  }
+  body main .clases .cuadro {
+    width: 200px;
+    margin-left: 100px;
+  }
+  body main .banner-inf {
+    background-image: url(../media/FGHGFHGF.jpg);
+    margin-right: 10%;
+    padding-right: 5%;
+  }
+  footer iframe {
+    height: 60;
+    width: 250px;
+  }
+  footer .logos-footer .mapa {
+    width: 100px;
+    height: 100px;
+  }
+  footer .logos-footer .logo-w {
+    padding-top: 8%;
+    margin-right: 0%;
+    padding-right: 0%;
+  }
+  footer .logos-footer .logo-w img {
+    height: 90px;
+  }
+  footer .logos-footer .logo-f {
+    margin-right: 40%;
+  }
+  footer .logos-footer .logo-f img {
+    height: 65px;
+  }
+  footer .logos-footer .logo-i, footer .logos-footer .logo-f {
+    margin-right: 50%;
+  }
+  footer .logos-footer .logo-i img, footer .logos-footer .logo-f img {
+    height: 65px;
+  }
+}
+@media (min-width: 1280) {
+  body {
+    background-color: rgba(129, 130, 133, 0.932);
+  }
+  body .background-image {
+    width: 100%;
+  }
+  body header {
+    width: 100%;
+  }
+  body header img {
+    height: 100px;
+  }
+  body header .titular {
+    background-color: rgb(3, 3, 3);
+    top: 0px;
+    height: 195px;
+    width: 100%;
+  }
+  body header .redireccion {
+    list-style-type: none;
+    padding-left: 25px;
+    color: rgba(255, 255, 255, 0.973);
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-decoration: none;
+  }
+  body header .redireccion .redirecciones {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 2%;
+    border: 10px;
+  }
+  body h1 {
+    text-align: center;
+  }
+  body h2 {
+    text-align: center;
+  }
+}
+footer {
+  width: 100%;
+}
+
+@media (min-width: 481) and (max-width: 1279) {
+  body header .titular {
+    background-color: rgb(3, 3, 3);
+    top: 0px;
+    height: 195px;
+  }
+  body main .titulo {
+    background-image: url(https://i.pinimg.com/736x/2a/f4/e7/2af4e73248862fefcfc8dd83874c70eb.jpg);
+    text-shadow: -2px 4px 4px rgba(0, 0, 0, 0.6);
+    height: 500px;
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 40px;
+    padding: 80px;
+  }
+  body main .background-image {
+    width: 100%;
+  }
+}
+.footer-marcas {
+  padding-top: 0%;
+  margin-top: 0%;
+}
+
+.titulo-marcas {
+  background-image: url(../media/ADSADASDAS.jpg);
+  text-shadow: -2px 4px 4px rgba(0, 0, 0, 0.6);
+  height: 400px;
+  width: 100%;
+  color: aliceblue;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 0%;
+  margin-bottom: 0%;
+}
+
+.subtitulo-marcas {
+  background-color: black;
+  color: white;
+  padding-top: 15%;
+  padding-bottom: 10%;
+  text-align: center;
+  margin-bottom: 0%;
+}
+
+.redireccion:hover {
+  color: rgb(155, 27, 27);
+}
+
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 1;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+}
+header .titular {
+  background-color: rgb(0, 0, 0);
+  top: 0px;
+  position: absolute;
+  height: 5px;
+  width: 100%;
+}
+header img {
+  height: 100px;
+}
+header .redirecciones {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  border: 10px;
+  width: 100%;
+}
+header .redirecciones ul {
+  text-decoration: none;
+  list-style-type: none;
+}
+header .redirecciones ul li {
+  display: flex;
+  list-style-type: none;
+  padding-left: 25px;
+  padding-right: 1%;
+  color: rgba(255, 255, 255, 0.973);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: none;
+  margin: 0;
+  width: 100%;
+}
+header .redireccion {
+  list-style-type: none;
+  padding-left: 25px;
+  color: rgba(255, 255, 255, 0.973);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: none;
+}
+header ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  font-size: 0;
+}
+header li {
+  display: inline-block;
+  font-size: 16px;
+}
+header nav {
+  width: 100%;
+}
+header .linea-sup {
+  margin-bottom: 1%;
+  background-color: rgb(187, 16, 16);
+  height: 3px;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+body .titulo {
+  background-image: url(../media/ADSADASDAS.jpg);
+  text-shadow: -2px 4px 4px rgba(0, 0, 0, 0.6);
+  height: 400px;
+  width: 100%;
+  color: aliceblue;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 5%;
+}
+body h1 {
+  color: white;
+  text-align: center;
+}
+body h2 {
+  background-color: black;
+  color: white;
+  padding-top: 15%;
+  padding-bottom: 10%;
+  text-align: center;
+}
+body h3 {
+  color: white;
+}
+body .texto-index {
+  display: flex;
+  margin-left: 5%;
+  margin-top: 3%;
+  margin-bottom: 4%;
+}
+body p {
+  color: white;
+}
+body li {
+  color: white;
+}
+body .cuadro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  justify-content: center;
+  width: 505px;
+  margin-top: 25%;
+  padding: 2px;
+  border-radius: 5%;
+  border: 1px solid rgb(248, 0, 0);
+}
+body .logoos {
+  display: flex;
+  flex-direction: row;
+}
+body .logoos img {
+  height: 30px;
+}
+body .logos-marcas {
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+  margin: auto;
+  padding: 5px;
+  border: 1px;
+  align-items: center;
+  justify-content: center;
+}
+body .logos-marcas img {
+  height: 60px;
+}
+body .label-contacto {
+  margin-top: 3%;
+  margin-left: 1%;
+  list-style-type: none;
+}
+body img {
+  height: 120px;
+}
+body .carrousel {
+  background-color: black;
+  padding: 1rem 0;
+}
+body .carrousel .carousel-inner {
+  display: flex;
+  align-items: center;
+  height: auto !important;
+}
+body .carrousel .carousel-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto !important;
+}
+body .carrousel .carousel-item img {
+  max-height: 100px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+body .clases {
+  display: flex;
+  flex-direction: row;
+}
+body .carousel-control-prev {
+  height: 100px;
+}
+
+.banner-inf {
+  background-image: url(../media/ADSFDSAFDSAADSF.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 3%;
+  margin-top: 25%;
+  height: 350px;
+  background-repeat: no-repeat;
+}
+
+footer {
+  margin-top: 20%;
+  padding-top: 0%;
+  margin-right: 10px;
+  border-top: 5px;
+  border-color: red;
+  background-color: rgb(59, 59, 59);
+  width: 100%;
+}
+footer p {
+  color: rgb(255, 255, 255);
+  text-align: end;
+}
+footer .copy {
+  background-color: rgb(255, 0, 0);
+}
+footer iframe {
+  height: 350px;
+  width: 350px;
+}
+footer .linea {
+  margin-bottom: 1%;
+  background-color: rgb(184, 33, 33);
+  height: 3px;
+}
+footer .logos-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 15%;
+  margin-top: 0%;
+}
+footer .logos-footer .logo-w {
+  display: flex;
+  margin-top: 6%;
+  padding-right: 10%;
+  margin-left: 5%;
+  height: 180px;
+}
+footer .logos-footer .logo-i, footer .logos-footer .logo-f {
+  display: flex;
+  margin-top: 3%;
+  height: 70px;
+  margin-right: 8%;
+}
+footer .mapa {
+  margin-left: 2%;
+}
+footer .wp {
+  width: 120px;
+  position: fixed;
+  bottom: 50px;
+  right: 25px;
+}
+footer .wp .heartbeat {
+  -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+  animation: heartbeat 1.5s ease-in-out infinite both;
+}
+
+.background-image {
+  width: 100%;
+}
+
+/*# sourceMappingURL=estilos.css.map */
