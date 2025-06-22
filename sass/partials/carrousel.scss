@@ -1,0 +1,26 @@
+.carrousel {
+  background-color: black;
+  padding: 1rem 0;
+
+  .carousel-inner {
+    display: flex;
+    align-items: center;
+    height: auto !important;
+  }
+
+  .carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto !important;
+
+    img {
+      max-height: 100px;
+      width: auto;
+      height: auto;
+      object-fit: contain;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}

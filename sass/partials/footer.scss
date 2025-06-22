@@ -1,0 +1,72 @@
+@use "../mixins" as *;
+
+footer {
+  margin-top: 20%;
+  padding-top: 0%;
+  margin-right: 10px;
+  border-top: 5px;
+  border-color: red;
+  background-color: rgb(59, 59, 59);
+  width: 100%;
+
+  p {
+    color: white;
+    text-align: end;
+  }
+
+  .copy {
+    background-color: red;
+  }
+
+  iframe {
+    height: 350px;
+    width: 350px;
+  }
+
+  .linea {
+    @include lineas-style(1%, rgb(184, 33, 33), 3px);
+  }
+
+  .logos-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 15%;
+    margin-top: 0%;
+
+    .logo-w {
+      display: flex;
+      margin-top: 6%;
+      padding-right: 10%;
+      margin-left: 5%;
+      height: 180px;
+    }
+
+    .logo-i {
+      display: flex;
+      margin-top: 3%;
+      height: 70px;
+      margin-right: 8%;
+    }
+
+    .logo-f {
+      @extend .logo-i;
+    }
+  }
+
+  .mapa {
+    margin-left: 2%;
+  }
+
+  .wp {
+    width: 120px;
+    position: fixed;
+    bottom: 50px;
+    right: 25px;
+
+    .heartbeat {
+      animation: heartbeat 1.5s ease-in-out infinite both;
+    }
+  }
+}
