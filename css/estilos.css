@@ -53,13 +53,6 @@
     color: aliceblue;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 4px;
-  }
-  body main .carousel-inner img {
-    width: 100%;
-    height: 500px;
-    object-fit: contain;
-    margin: auto;
   }
   body main .titulo-infoweb, body main .titulo-marcas, body main .titulo-contacto {
     font-size: 70%;
@@ -126,10 +119,10 @@
   footer .logos-footer .logo-f img {
     height: 65px;
   }
-  footer .logos-footer .logo-i, footer .logos-footer .logo-f {
+  footer .logos-footer .logo-i {
     margin-right: 50%;
   }
-  footer .logos-footer .logo-i img, footer .logos-footer .logo-f img {
+  footer .logos-footer .logo-i img {
     height: 65px;
   }
 }
@@ -200,36 +193,6 @@ footer {
     width: 100%;
   }
 }
-.footer-marcas {
-  padding-top: 0%;
-  margin-top: 0%;
-}
-
-.titulo-marcas {
-  background-image: url(../media/ADSADASDAS.jpg);
-  text-shadow: -2px 4px 4px rgba(0, 0, 0, 0.6);
-  height: 400px;
-  width: 100%;
-  color: aliceblue;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-top: 0%;
-  margin-bottom: 0%;
-}
-
-.subtitulo-marcas {
-  background-color: black;
-  color: white;
-  padding-top: 15%;
-  padding-bottom: 10%;
-  text-align: center;
-  margin-bottom: 0%;
-}
-
-.redireccion:hover {
-  color: rgb(155, 27, 27);
-}
-
 * {
   font-family: sans-serif;
   margin: 0;
@@ -304,7 +267,7 @@ header .linea-sup {
 }
 
 body {
-  background-color: rgb(0, 0, 0);
+  background-color: black;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -317,33 +280,44 @@ body .titulo {
   color: aliceblue;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 5%;
 }
-body h1 {
+body h1, body h2, body h3, body p, body li {
   color: white;
-  text-align: center;
 }
 body h2 {
   background-color: black;
-  color: white;
   padding-top: 15%;
   padding-bottom: 10%;
   text-align: center;
 }
-body h3 {
-  color: white;
+body h1 {
+  text-align: center;
+}
+body .main-index {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body .infocata {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5%;
+  border: 1px rgb(177, 27, 27);
+}
+body .infocata .subinfocata {
+  display: flex;
+  border-radius: 5%;
+  border: 3px rgb(177, 26, 26);
 }
 body .texto-index {
   display: flex;
   margin-left: 5%;
   margin-top: 3%;
   margin-bottom: 4%;
-}
-body p {
-  color: white;
-}
-body li {
-  color: white;
+  border-radius: 5%;
 }
 body .cuadro {
   display: flex;
@@ -355,7 +329,7 @@ body .cuadro {
   margin-top: 25%;
   padding: 2px;
   border-radius: 5%;
-  border: 1px solid rgb(248, 0, 0);
+  border: 1px solid rgb(177, 31, 31);
 }
 body .logoos {
   display: flex;
@@ -385,29 +359,6 @@ body .label-contacto {
 body img {
   height: 120px;
 }
-body .carrousel {
-  background-color: black;
-  padding: 1rem 0;
-}
-body .carrousel .carousel-inner {
-  display: flex;
-  align-items: center;
-  height: auto !important;
-}
-body .carrousel .carousel-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: auto !important;
-}
-body .carrousel .carousel-item img {
-  max-height: 100px;
-  width: auto;
-  height: auto;
-  object-fit: contain;
-  display: block;
-  margin: 0 auto;
-}
 body .clases {
   display: flex;
   flex-direction: row;
@@ -429,6 +380,10 @@ body .carousel-control-prev {
   background-repeat: no-repeat;
 }
 
+.background-image {
+  width: 100%;
+}
+
 footer {
   margin-top: 20%;
   padding-top: 0%;
@@ -439,11 +394,13 @@ footer {
   width: 100%;
 }
 footer p {
-  color: rgb(255, 255, 255);
+  color: white;
   text-align: end;
 }
 footer .copy {
-  background-color: rgb(255, 0, 0);
+  background-color: red;
+  padding: 0%;
+  margin: 0%;
 }
 footer iframe {
   height: 350px;
@@ -485,12 +442,36 @@ footer .wp {
   right: 25px;
 }
 footer .wp .heartbeat {
-  -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
   animation: heartbeat 1.5s ease-in-out infinite both;
 }
 
-.background-image {
-  width: 100%;
+.carrousel {
+  background-color: black;
+  padding: 1%;
+}
+.carrousel .carousel-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+.carrousel .carousel-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px img;
+  height-display: flex;
+  height-justify-content: center;
+  height-align-items: center;
+  height-max-height: 100px;
+  height-width: auto;
+  height-height: auto;
+  height-display: block;
+  height-margin: 0 auto;
+}
+
+.redirecciones :hover {
+  color: rgb(146, 21, 21);
 }
 
 /*# sourceMappingURL=estilos.css.map */
